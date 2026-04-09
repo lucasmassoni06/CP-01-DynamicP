@@ -8,17 +8,6 @@
 
 ---
 
-## Como executar
-
-```bash
-pip install pandas matplotlib
-python checkpoint1_RA_par.py
-```
-
-O arquivo `Check_point_1_dados_logistica_RA_final_par.csv` deve estar na mesma pasta.
-
----
-
 ## Estruturas de Dados
 
 | Variável | Estrutura | Uso |
