@@ -94,4 +94,6 @@ lista_ordenada = sorted(lista_pedidos, key=lambda x: (prioridade[x['urgencia']],
 print('=' * 55)
 print("\nLista dos pedidos ordenados por urgencia\n")
 
-for pid, dados in lista_ordenada:
+for i, p in enumerate(lista_ordenada, 1):
+    print(f"Pedido #{p['pedido_id']} - {p['produto']} -> {p['cidade_destino']} "
+          f"- {p['urgencia'].upper()} - {p['tempo_estimado_horas']}h - R$ {p['valor_total']:.2f}")
